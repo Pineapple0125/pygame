@@ -1,0 +1,6 @@
+1、命令行pip install Pyinstaller
+2、cd e:/ 路径切换
+3、pyinstaller -F -w main.py
+4、生成文件夹build和dist，exe文件在dist文件夹
+5、直接执行exe出现错误，原因是图片文件路径不对
+6、将图片文件夹放入dist文件夹即可。
